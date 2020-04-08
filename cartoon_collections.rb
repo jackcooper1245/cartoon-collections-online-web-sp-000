@@ -4,15 +4,14 @@ def roll_call_dwarves(dwarves)
  end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
-end
-
-def long_planeteer_calls(planeteer_calls)
+def summon_captain_planet(planeteer_calls)
   new_calls = []
   planeteer_calls.collect do |calls|
    new_calls << calls.capitalize
   end
+end
+
+def long_planeteer_calls
 end
 
 def find_the_cheese# code an argument here
